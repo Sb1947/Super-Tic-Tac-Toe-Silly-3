@@ -37,8 +37,10 @@ For example:
   <img width="1440" alt="Screenshot 2025-01-09 at 1 19 56 PM" src="https://github.com/user-attachments/assets/810f0446-6fc7-4233-bb29-4404e844a368" />
 - If Player O places their mark in the center cell of the top-left small board, Player X must play in the center small board.
     <img width="1440" alt="Screenshot 2025-01-09 at 1 20 33 PM" src="https://github.com/user-attachments/assets/283d8f3b-8c86-4291-9477-245fed62051a" />
-- If Player X places their mark in the top-middle cell of the middle small board. Player O must play in the top-middle small board
+- If Player X places their mark in the top-middle cell of the middle small board. Player O must play in the top-middle small board.
   <img width="1440" alt="Screenshot 2025-01-09 at 1 21 48 PM" src="https://github.com/user-attachments/assets/6cfbda9b-a08a-419a-89ce-c9f7b4780140" />
+- If Player O places their mark in the bottom-right cell of the top-middle small board. Player X must play in the bottom-right small board.
+    <img width="1440" alt="Screenshot 2025-01-09 at 1 22 08 PM" src="https://github.com/user-attachments/assets/d3ca749b-e68f-4ea2-9900-c18378bd9c53" />
 
 
 Winning a Small Board:
