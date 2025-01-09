@@ -47,10 +47,13 @@ A player must place their mark on the small board within the large grid that was
 - A player wins a small board by getting three of their marks in a row, column, or diagonal within that board, just like in classic Tic Tac Toe.
 Once a small board is won, it is counted as "closed" for that player in the large grid.
 
+#### Tie in a Small Board:
+
+- If neither player wins a small board, it is considered a draw. This board is now effectively "closed" and cannot be played in.
+
 #### Free Move Rule:
 
-- If a player’s move sends the opponent to a closed or fully occupied small board, the opponent can then place their mark on any open square in any open small board on the large grid.
-This rule also applies if a small board has already resulted in a draw and cannot be won by either player.
+- If a player’s move sends the opponent to a closed or fully occupied small board, the opponent can then place their mark on any open square in any open small board on the large grid. This rule also applies if a small board has already resulted in a draw and cannot be won by either player.
 
   ##### For Example:
   <img width="1440" alt="Screenshot 2025-01-09 at 1 14 26 PM" src="https://github.com/user-attachments/assets/e4220f33-7f3d-45ff-bd5f-560189dcc2d1" />
@@ -62,10 +65,6 @@ This rule also applies if a small board has already resulted in a draw and canno
 - The game ends when a player achieves a winning line in the large grid by winning three small boards in a row, column, or diagonal.
 If all boards are filled without any player achieving this, the game is a draw.
 Additional Notes
-
-### Tie in a Small Board:
-
-- If neither player wins a small board, it is considered a draw. This board is now effectively "closed," and future moves directed to this board will allow the next player to choose any available board.
 
 ---
 # Good Luck!
