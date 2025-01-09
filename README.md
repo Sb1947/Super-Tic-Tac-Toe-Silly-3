@@ -4,32 +4,31 @@ Welcome to the game of Super Tic-Tac-Toe!
 
 Super Tic Tac Toe is an advanced version of the childhood game that we all know and love, Tic Tac Toe. Super Tic Tac Toe is played on a 3x3 grid of smaller Tic Tac Toe boards, creating a larger 9x9 grid. The goal is to win three small boards in a row, column, or diagonal on the large grid. Each turn, a player places their mark on one of the squares within the small board determined by their opponent’s previous move. For example, if your opponent plays in the top-left square of a small board, you must play in the top-left small board of the large grid. If a small board is already won, tied, or full, you can play anywhere on an open square. The game continues until a player wins three small boards in a row on the large grid or all boards are filled, resulting in a draw.
 
-Here are the specifics for the Rules:
+## Here are the specifics for the Rules:
 
-Board Structure:
+#### Board Structure:
 
 - The game board is a 3x3 grid of small Tic Tac Toe boards, creating a large 9x9 grid in total.
 Each small board functions as a regular Tic Tac Toe board, with its own 3x3 grid.
-Winning Objective:
+  <img width="1440" alt="image" src="https://github.com/user-attachments/assets/1db5477d-5c89-4bab-a843-234d0be6280b" />
 
-- To win the entire game, a player must win three small boards in a row, column, or diagonal on the large board.
-Gameplay Rules
+---
+### Gameplay Rules
 
-Starting the Game:
+#### Starting the Game:
 
 - Player X goes first. Players then alternate turns.
   
-Placing Your Mark:
+#### Placing Your Mark:
 
 - On each turn, a player places their mark (either X or O) on one of the 81 squares in the 9x9 grid.
 A player must place their mark on the small board within the large grid that was determined by the opponent’s previous move.
 
-How to Determine the Next Move:
+#### How to Determine the Next Move:
 
 - The small board where the next player must play is determined by the position of the last mark placed.
 
-
-For example:
+##### For example:
 
 - If Player X places their mark in the top-left cell of a small board.
   <img width="1440" alt="Screenshot 2025-01-09 at 1 18 27 PM" src="https://github.com/user-attachments/assets/09a6f2dd-dad1-4708-8bdb-e9af9bbc1ae4" />
@@ -43,27 +42,32 @@ For example:
     <img width="1440" alt="Screenshot 2025-01-09 at 1 22 08 PM" src="https://github.com/user-attachments/assets/d3ca749b-e68f-4ea2-9900-c18378bd9c53" />
 
 
-Winning a Small Board:
+#### Winning a Small Board:
 
 - A player wins a small board by getting three of their marks in a row, column, or diagonal within that board, just like in classic Tic Tac Toe.
 Once a small board is won, it is counted as "closed" for that player in the large grid.
 
-Free Move Rule:
+#### Free Move Rule:
 
 - If a player’s move sends the opponent to a closed or fully occupied small board, the opponent can then place their mark on any open square in any open small board on the large grid.
 This rule also applies if a small board has already resulted in a draw and cannot be won by either player.
 
-Winning the Game:
+  ##### For Example:
+  <img width="1440" alt="Screenshot 2025-01-09 at 1 14 26 PM" src="https://github.com/user-attachments/assets/e4220f33-7f3d-45ff-bd5f-560189dcc2d1" />
+  In such a case, Player O can place their mark in any board they choose since Player X captured a small board on their last turn. If either Players are ever redirected to play in the bottom-left small board, they can choose to play anywhere else.
+
+---
+### Winning the Game:
 
 - The game ends when a player achieves a winning line in the large grid by winning three small boards in a row, column, or diagonal.
 If all boards are filled without any player achieving this, the game is a draw.
 Additional Notes
 
-Tie in a Small Board:
+### Tie in a Small Board:
 
 - If neither player wins a small board, it is considered a draw. This board is now effectively "closed," and future moves directed to this board will allow the next player to choose any available board.
 
-
+---
 # Good Luck!
 
 ![image](https://github.com/user-attachments/assets/5a3af9ae-0bfd-437d-a942-d1aebb38d421)
