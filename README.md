@@ -1,1 +1,1 @@
-# Super Tic Tac Toe Silly :3
+# Super Tic Tac Toe (Silly) :3
